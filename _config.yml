@@ -5,8 +5,8 @@
 
 # Site
 title: 양해승 블로그
-subtitle:
-description:
+subtitle: subtitle
+description: description
 author: 양해승
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
