@@ -6,7 +6,7 @@
 # Site
 title: 양해승 블로그
 subtitle: 잊지 않기 위해 기록합니다
-description:
+description: '개발 공부 기록'과 사견을 적는 곳입니다.
 author: 양해승
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
@@ -14,7 +14,7 @@ date_format: "%Y-%m-%d"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: 개발 공부 기록과 사견을 적는 공간입니다
+url: 
 baseurl:
 permalink: pretty
 
