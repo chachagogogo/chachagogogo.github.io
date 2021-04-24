@@ -1,6 +1,6 @@
 ---
 title: Postman Bearer Token 설정하기
-date: 2021-04-15 21:03:26
+date: 2021-04-24 15:00:26
 categories:
   - 개발 툴
 tags: [Postman]
