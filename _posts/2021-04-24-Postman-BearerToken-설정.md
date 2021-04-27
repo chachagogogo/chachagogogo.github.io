@@ -29,6 +29,8 @@ token 인증 방식은 다음에 설명하도록 하고,,,,
 ![](https://mblogthumb-phinf.pstatic.net/20131017_230/yeji4152_1381971121233HqVag_PNG/moon_036.png?type=w210)  
 같이 고고~~~~
 
+---
+
 # 1. 콜렉션 만들어서 토큰 담을 변수 만들기
 
 ![Screen Shot 2021-04-24 at 2 14 17 PM](https://user-images.githubusercontent.com/73287554/115948294-5045b880-a508-11eb-8b41-f725ef8af9d0.png)
@@ -74,6 +76,8 @@ if (pm.response.code === 200) {
 1. `authorization을` 누른다.
 2. `inherit auth from parent`를 누른다. (컬렉션에서 이미 authenticaton 방식을 Bearer Token으로 지정해줬기 때문에 inherit을 하면 당연히 Bearer Token으로 자동 선택되는 거랍니다~~! 간편하죠???)
 3. `send`를 누르면 토큰이 자동으로 적용된 모습을 뙇!!!!하고 보실 수 있을 거예요,,,!(사진이 짤렸네요 뎨둉🙏)
+
+---
 
 ## 어때요?? 어렵지 않죠????
 
