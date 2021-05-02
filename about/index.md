@@ -6,8 +6,8 @@ type: about
 ![](../assets/images/avatar.gif)
 
 백엔드 웹개발자 지망생입니다.👨‍💻  
-늘 '왜?'를 생각하고 이에 대한 대답을 찾기 위해 노력합니다.
-[이력서](https://bit.ly/haeseung)
+늘 '왜?'를 생각하고 이에 대한 대답을 찾기 위해 노력합니다.  
+[이력서](https://bit.ly/haeseung)  
 [자기소개서](https://bit.ly/haeseung_coverletter)
 
 천주교인입니다✝️  
