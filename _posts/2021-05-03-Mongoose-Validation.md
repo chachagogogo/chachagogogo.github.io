@@ -13,6 +13,8 @@ Udemy에서 [The Complete Node.js Developer Course (3rd Edition) 강의](https:/
 Mongoose에서 validation 작업은 schema에서 하면 된다.  
 [SchemaType.prototype.validate()](https://mongoosejs.com/docs/api.html#schematype_SchemaType-validate)이라는 method, 그리고 [validator](https://www.npmjs.com/package/validator)라는 패키지를 이용한다.
 
+<!-- more -->
+
 공식문서에서 [Custom Validators](https://mongoosejs.com/docs/validation.html#custom-validators)라는 페이지의 예제 코드를 보면 얼추 감이 올 것이다.
 
 아래는 Udemy 강의 코드 일부분이다.
