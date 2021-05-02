@@ -5,15 +5,17 @@ type: about
 
 ![](../assets/images/avatar.gif)
 
-웹개발자 지망생입니다.👨‍💻  
-백엔드에 관심이 많습니다.  
+백엔드 웹개발자 지망생입니다.👨‍💻  
 늘 '왜?'를 생각하고 이에 대한 대답을 찾기 위해 노력합니다.
+[이력서](https://bit.ly/haeseung)
+[자기소개서](https://bit.ly/haeseung_coverletter)
 
 천주교인입니다✝️  
 배우면서 기쁨을 느끼고, 알려주면서 보람을 느낍니다.  
-[트위터](https://www.twitter.com/dev_gogogo)를 합니다.
+[트위터](http://bit.ly/haeseung_twitter)를 합니다.
 
 | 날짜             | 한 일                                                                                                          |
 | ---------------- | -------------------------------------------------------------------------------------------------------------- |
 | 2020년 10월 27일 | 처음으로 콘솔로그에 `Hello World` 출력                                                                         |
 | 2021년 4월 15일  | 이전까지 [깃헙 레포](https://github.com/chachagogogo/What-I-learned)에 공부 내용 올리다가 `양해승 블로그` 개설 |
+| 2021년 4월 30일  | 코드스테이츠 Advanced software engineering, Immersive program (26기) 수료                                      |
