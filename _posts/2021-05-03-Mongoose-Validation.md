@@ -1,18 +1,9 @@
 ---
-title: 日本語テスト
-date: 2021-04-24 23:33:26
-link: http://www.google.com/
+title: Mongoose에서 validation 작업하기
+date: 2021-05-03 00:30:26
 categories:
-  - Foo
-  - Bar
-  - Baz
-tags: [resources, jekyll]
-photos:
-  - http://ww1.sinaimg.cn/mw690/81b78497jw1emfgwkasznj21hc0u0qb7.jpg
-  - http://ww3.sinaimg.cn/mw690/81b78497jw1emfgwjrh2pj21hc0u01g3.jpg
-  - http://ww2.sinaimg.cn/mw690/81b78497jw1emfgwil5xkj21hc0u0tpm.jpg
-  - http://ww3.sinaimg.cn/mw690/81b78497jw1emfgvcdn25j21hc0u0qpa.jpg
-description: Gallery Post Test. 测试图片类文章的显示。
+  - MongoDB
+tags: [Mongoose, MongoDB]
 ---
 
 Udemy에서 [The Complete Node.js Developer Course (3rd Edition) 강의](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)을 들으며 배운 내용입니다.
