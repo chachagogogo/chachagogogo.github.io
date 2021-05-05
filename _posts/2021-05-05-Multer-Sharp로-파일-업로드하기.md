@@ -17,7 +17,7 @@ Udemy에서 [The Complete Node.js Developer Course (3rd Edition) 강의](https:/
 
 <!-- more -->
 
-아래와 같이 User 스키마에 avatar라는 프로퍼티를 만든다. 타입은 `버퍼`로 지정한다.
+아래와 같이 User 스키마에 avatar라는 프로퍼티를 만든다. 타입은 `Buffer`로 지정한다.
 
 ```js
 const userSchema = new mongoose.Schema({
@@ -41,14 +41,15 @@ const upload = multer({
 		fileSize: 1_000_000,
 	},
 	fileFilter(req, file, cb) {
-		// if(!file.originalname.endsWith('.pdf'))
-		// match는 정규표현식에 사용. 정규표현식은 // 내부에 써야 한다는 점 주의.
+		// if(!file.originalname.endsWith('.pdf'))를 써도 된다.
+		// match는 정규표현식에 사용. 정규표현식은 (//) 내부에 써야 한다는 점 주의.
 		if (!file.originalname.match(/\.(jpg|jpeg|png)$/)) {
 			return cb(new Error("Please upload an image file"));
 		}
 		cb(undefined, true);
 	},
 });
+```
 
 ---
 
@@ -57,6 +58,7 @@ const upload = multer({
 - sharp 라이브러리는 업로드되는 파일에 통일성을 부여해주는 라이브러리이다. 사진 크기, 확장자 등이 이에 해당된다.
 - 사용자가 어떻게 resize할지는 프론트엔드쪽에서 해야 하는 작업이다.
 
+```js
 router.post(
 	"/users/me/avatar",
 	auth,
