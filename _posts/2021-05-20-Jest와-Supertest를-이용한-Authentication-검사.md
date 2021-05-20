@@ -58,6 +58,7 @@ app.listen(PORT, () => {
 그리고 `beforeEach()`를 사용해서 테스트를 할 때마다 도큐먼트를 깨끗이 비워주는 코드를 작성하자.
 
 ```js
+// user.test.js
 const request = require("supertest");
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
