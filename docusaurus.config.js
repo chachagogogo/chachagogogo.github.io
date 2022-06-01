@@ -71,12 +71,12 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'about',
+            docId: '/category/책---모던-자바스크립트-deep-dive',
             position: 'left',
             label: '노트',
           },
           {to: '/blog', label: '블로그', position: 'left'},
-          {href: '/docs/about', label: '소개', position: 'left'},
+          {href: '/blog/about', label: '소개', position: 'left'},
           {type: 'search', position: 'right'},
           // {
           //   href: 'https://github.com/chachagogogo',
@@ -93,7 +93,7 @@ const config = {
             items: [
               {
                 label: '소개',
-                to: '/docs/about',
+                to: '/docs/2022-06-01-about',
               },
             ],
           },
