@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '해승 블로그',
+  tagline: '기록하고 공유합니다',
   url: 'https://chachagogogo.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -59,24 +59,26 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '해승 블로그',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: '해승 블로그 로고',
+          src: 'img/favicon.ico',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'about',
             position: 'left',
-            label: 'Tutorial',
+            label: '노트',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: '블로그', position: 'left'},
+          {href: '/docs/about', label: '소개', position: 'left'},
+          {type: 'search', position: 'right'},
+          // {
+          //   href: 'https://github.com/chachagogogo',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -86,25 +88,25 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '소개',
+                to: '/docs/about',
               },
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/haeseung_dev',
               },
             ],
           },
@@ -112,12 +114,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: '블로그',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/chachagogogo',
               },
             ],
           },
