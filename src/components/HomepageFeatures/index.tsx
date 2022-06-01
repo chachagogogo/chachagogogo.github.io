@@ -1,9 +1,11 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 type FeatureItem = {
   title: string;
+  to: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
@@ -11,6 +13,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: '노트',
+    to: '/docs/category/책---모던-자바스크립트-deep-dive',
     Svg: require('@site/static/img/folder.svg').default,
     description: (
       <>
@@ -20,6 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '블로그',
+    to: '/blog',
     Svg: require('@site/static/img/cup.svg').default,
     description: (
       <>
@@ -29,6 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '소개',
+    to: '/blog/about',
     Svg: require('@site/static/img/id-card.svg').default,
     description: (
       <>
@@ -38,14 +43,14 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Svg, description, to}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <Link to={to} style={{ color: 'black' }}><h3>{title}</h3></Link>
         <p>{description}</p>
       </div>
     </div>
