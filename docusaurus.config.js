@@ -93,7 +93,7 @@ const config = {
             items: [
               {
                 label: '소개',
-                to: '/docs/2022-06-01-about',
+                to: '/blog/about',
               },
             ],
           },
