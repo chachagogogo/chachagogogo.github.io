@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchachagogogo_github_io=self.webpackChunkchachagogogo_github_io||[]).push([[535],{5641:function(o){o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Docusaurus \ube14\ub85c\uadf8\ub97c \uc2dc\uc791\ud569\ub2c8\ub2e4","permalink":"/blog/opening-docusaurus-blog"},{"title":"\uc18c\uac1c","permalink":"/blog/about"}]}')}}]);
